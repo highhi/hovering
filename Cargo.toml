@@ -1,0 +1,10 @@
+[package]
+name = "hovering"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[[example]]
+name = "simple_indicator"
+path = "examples/simple_indicator.rs"

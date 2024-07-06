@@ -1,0 +1,14 @@
+{
+	"name": "hovering",
+	"image": "mcr.microsoft.com/devcontainers/rust:1-1-bullseye",
+	"runArgs": ["--name", "hovering"],
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"rust-lang.rust-analyzer",
+				"serayuzgur.crates",
+				"vadimcn.vscode-lldb"
+			]
+		}
+	}
+}
